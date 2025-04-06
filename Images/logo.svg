@@ -1,0 +1,23 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo circular -->
+  <circle cx="100" cy="100" r="90" fill="#f0f0f0" stroke="#2c3e50" stroke-width="3"/>
+  
+  <!-- Viga principal -->
+  <rect x="30" y="90" width="140" height="20" fill="#3498db" rx="2" ry="2"/>
+  
+  <!-- Soportes de la viga -->
+  <rect x="30" y="110" width="10" height="30" fill="#7f8c8d"/>
+  <rect x="160" y="110" width="10" height="30" fill="#7f8c8d"/>
+  
+  <!-- Flechas de carga -->
+  <path d="M70,70 L70,90 L65,85 M70,90 L75,85" stroke="#e74c3c" stroke-width="2" fill="none"/>
+  <path d="M100,70 L100,90 L95,85 M100,90 L105,85" stroke="#e74c3c" stroke-width="2" fill="none"/>
+  <path d="M130,70 L130,90 L125,85 M130,90 L135,85" stroke="#e74c3c" stroke-width="2" fill="none"/>
+  
+  <!-- Línea de deflexión -->
+  <path d="M30,100 Q100,130 170,100" stroke="#2ecc71" stroke-width="2" stroke-dasharray="5,3" fill="none"/>
+  
+  <!-- Texto de la empresa -->
+  <text x="100" y="160" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#2c3e50">INGENIERÍA ESTRUCTURAL</text>
+  <text x="100" y="180" font-family="Arial" font-size="12" text-anchor="middle" fill="#2c3e50">Cálculos Precisos</text>
+</svg>
